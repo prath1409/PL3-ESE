@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Login Form: Easy Tutorials Hindi</title>  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+</head>
+<body>
+
+<div class="form-box">
+    
+    <h2>Login Here</h2>
+    <form method="Post" action="main.html">
+        <div class="input-group">
+            <label for="usrname">Username</label>
+            <input type="text" id="usrname"name="usrname" required>
+        </div>
+        <div class="input-group">
+            <label for="psw">Password</label>
+            <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-Z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+        </div>
+        <button type="submit">Submit &#10132;</button>
+        
+    </form>  
+    <p>Login in with social media account</p>
+    <div class="social">
+        <img src="facebook.png">
+        <img src="twitter.png">
+        <img src="google.png">
+    </div>
+</div>
+    
+    
+</body>
+</html>
